@@ -218,6 +218,11 @@ navigation
     z-index:0;
 }
 
+.home_header {
+    background-image:url(../images/conferences_snow_white.jpg);  
+    background-size: cover;
+}
+
 .header_pgtitle {
     color: #ffffff;
     position:absolute;
@@ -334,6 +339,7 @@ sports statistics table
 
 table, td, th {
     border: 1px solid #979797;
+    letter-spacing: : 2px;
 }
 
 table {

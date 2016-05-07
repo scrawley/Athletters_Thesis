@@ -1,5 +1,5 @@
 <?php
-header('Location: http://www.book-bridges.com');
+header('Location: http://scrawley.github.io/Athletters_Thesis/');
 ?>
 
 <?php
