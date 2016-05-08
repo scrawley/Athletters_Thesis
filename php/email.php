@@ -1,12 +1,12 @@
 <?php
-header('Location: http://scrawley.github.io/Athletters_Thesis/');
+header('Location: http://micadesign.org/thesis2016');
 ?>
 
 <?php
 if(isset($_POST['email'])) {
      
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "athletters@gmail";
+    $email_to = "athletters@gmail.com";
     $email_subject = "Newsletter Registration";
      
     $email = $_POST['email']; // required

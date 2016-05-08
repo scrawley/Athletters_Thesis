@@ -10,13 +10,16 @@ body {
    
 }
 
+
 .shop {
-    margin-left: 50px;   
+   
 }
 
 .logo {
-    margin-top:-5px;
-    width:150px;   
+    margin-top:-2px;
+    width:150px; 
+    padding-left:10px;
+    padding-right:10px;
 }
 
 .arrow_left {
@@ -47,7 +50,7 @@ box-shadow:         0px 0px 0px 7px rgba(50, 50, 50, 1);
 .arrow_left_gdmfa {
     margin-top:25px;
     margin-left:20px;
-	background-image: url(../images/arrow_left-20.png);
+	background-image: url(../images/arrow_left_gold-26.png);
     display: block;
     background-size: contain;
     height: 25px;
@@ -58,7 +61,7 @@ box-shadow:         0px 0px 0px 7px rgba(50, 50, 50, 1);
 .arrow_left_gdmfa:hover {
     margin-top:25px;
     margin-left:20px;
-	background-image: url(../images/arrow_left_blue-22.png);
+	background-image: url(../images/arrow_left-20.png);
     display: block;
     background-size: contain;
     height: 25px;
@@ -118,7 +121,7 @@ navigation
 }
 
 .navbar-inverse {
-    background-color: #7195CB;
+    background-color: #AB8829;
     color:#303030;
     border:none;
     border-bottom: #303030 5px solid;
@@ -151,22 +154,22 @@ navigation
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color:#7195CB;
-    border: 2px #7195CB solid;
+    background-color:#AB8829;
+    border: 2px #AB8829 solid;
     padding:5px;
     letter-spacing: 1px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    background-color:#7195CB;
+    background-color:#AB8829;
     color:#ffffff;
-    border: 2px #7195CB solid;
+    border: 2px #AB8829 solid;
     padding:5px;
     letter-spacing: 1px;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-    background-color:#7195CB;
+    background-color:#AB8829;
     border: 2px #ffffff solid;
     padding:5px;
     letter-spacing: 1px;
@@ -177,16 +180,16 @@ navigation
 
 
 .navbar-inverse .navbar-nav > li.gdmfa > a {
-    background-color:#7195CB;
+    background-color:#AB8829;
     color:#ffffff;
-    border: 2px #7195CB solid;
+    border: 2px #AB8829 solid;
     padding:5px;
     letter-spacing: 1px;
 }
 
 .navbar-inverse .navbar-nav > li.gdmfa > a:hover {
-    background-color:#7195CB;
-    border: 2px #7195CB solid;
+    background-color:#AB8829;
+    border: 2px #AB8829 solid;
     padding:5px;
     letter-spacing: 1px;
 }
@@ -196,14 +199,14 @@ navigation
 
 
 .navbar-inverse .navbar-nav > .active > a:hover {
-    background-color:#7195CB;
+    background-color:#AB8829;
     border: 2px #ffffff solid;
     padding:5px;
     letter-spacing: 1px;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-    background-color:#7195CB;
+    background-color:#AB8829;
     border: 2px #ffffff solid;
     padding:5px;
     letter-spacing: 1px;
@@ -218,8 +221,24 @@ navigation
     z-index:0;
 }
 
+.exhibit_header {
+    background-color:#E9E9E9;
+    margin-top:0px;
+    height:300px;
+    position:relative;
+    z-index:0;
+}
+
+
+
+
 .home_header {
-    background-image:url(../images/conferences_snow_white.jpg);  
+    background-image:url(../images/chenille_patches_02.jpg);  
+    background-size: cover;
+}
+
+.exhibit_header {
+    background-image:url(../images/exhibit_header_grey.jpg);  
     background-size: cover;
 }
 
@@ -240,13 +259,24 @@ navigation
 .caption_header {
     margin-top:150px;
     color:#7195CB;
+    text-align: left;
+    padding-left:0px;
+    
 }
 
 
 
-.caption_header > h2 {
-    font-size:45px;
+.caption_header > h5 {
+    font-size:20px;
+     line-height: 1.4;
+    color:white;
+    letter-spacing: 0.5px;
 }
+
+h5.exhibit_date, .exhibit_institution, .exhibit_location {
+   color: #303030; 
+}
+
 /*
 ==============================================
 sports statistics
@@ -263,19 +293,29 @@ sports statistics
 .variable {
     margin-bottom:5px;
     letter-spacing: 0.5px;
+    color:#A6A8AB;
     
 }
 .data_sport {
     margin-top:0px;   
 }
 
+.game_partitions, .sport_type, .equipment_header {
+     color: #A6A8AB; 
+    font-size:12px;
+    letter-spacing: 0.5px;
+}
 
 .var_number {
-    color: #7195CB;   
+    color: #AB8829;   
 }
 
 .number {
     margin-top:0px;   
+}
+
+div.col-md-9 {
+    padding-left:0px;   
 }
 
 .ranking {
@@ -333,7 +373,7 @@ sports statistics table
 */
 
 .stats_table {
-    margin-top:100px;  
+    margin-top:80px;  
     padding-left:0px;
 }
 
@@ -363,6 +403,18 @@ td, th {
 
 .bowling_ball {
     margin-left:-10px;   
+}
+
+.bathing_suit {
+     margin-left:10px;   
+}
+
+.airhockey_mallet {
+    margin-left:-10px;   
+}
+
+.yoga_mat {
+    margin-left:2px;   
 }
 /*
 ==============================================
@@ -402,7 +454,7 @@ alphabet grid
 }
 
 .see_alphabet {
-    height:45px;
+    height:25px;
    
     margin-bottom:20px;
     margin-left: auto;
@@ -420,8 +472,371 @@ alphabet grid
     letter-spacing: .5px;
 }
 
+.airhockey_hover {
+    background-image: url(../images/airhockey_A_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.airhockey_hover:hover {
+    background-image: url(../images/airhockey_A.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.bowling_hover {
+    background-image: url(../images/bowling_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.bowling_hover:hover {
+    background-image: url(../images/bowling_b_B.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.croquet_hover {
+    background-image: url(../images/croquet_C_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.croquet_hover:hover {
+    background-image: url(../images/croquet_C.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.track_hover {
+    background-image: url(../images/track_T_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.track_hover:hover {
+    background-image: url(../images/track_T.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.netball_hover {
+    background-image: url(../images/netball_n_N_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.netball_hover:hover {
+    background-image: url(../images/netball_n_N.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.zorbing_hover {
+    background-image: url(../images/zorbing_Z_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.zorbing_hover:hover {
+    background-image: url(../images/zorbing_Z.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.karate_hover {
+    background-image: url(../images/karate_K_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.karate_hover:hover {
+    background-image: url(../images/karate_K.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
 
 
+.diving_hover {
+    background-image: url(../images/diving_d_D_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.diving_hover:hover {
+    background-image: url(../images/diving_d_D.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+
+.lumberjack_hover {
+    background-image: url(../images/lumberjacking_L_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.lumberjack_hover:hover {
+    background-image: url(../images/lumberjacking_L.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.icehockey_hover {
+    background-image: url(../images/icehockey_I_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.icehockey_hover:hover {
+    background-image: url(../images/icehockey_I.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.quidditch_hover {
+    background-image: url(../images/quidditch_Q_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.quidditch_hover:hover {
+    background-image: url(../images/quidditch_Q.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.soccer_hover {
+    background-image: url(../images/soccer_S_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.soccer_hover:hover {
+    background-image: url(../images/soccer_S.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.motocross_hover {
+    background-image: url(../images/motocross_M_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.motocross_hover:hover {
+    background-image: url(../images/motocross_M.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.yoga_hover {
+    background-image: url(../images/yoga_Y_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.yoga_hover:hover {
+    background-image: url(../images/yoga_Y.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.football_hover {
+    background-image: url(../images/football_f_F_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.football_hover:hover {
+    background-image: url(../images/football_f_F.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.golf_hover {
+    background-image: url(../images/golf_G_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.golf_hover:hover {
+    background-image: url(../images/golf_G.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.rowing_hover {
+    background-image: url(../images/rowing_R_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.rowing_hover:hover {
+    background-image: url(../images/rowing_R.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.xare_hover {
+    background-image: url(../images/xare_x_X_bwpng);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.xare_hover:hover {
+    background-image: url(../images/xare_x_X.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.weightlifting_hover {
+    background-image: url(../images/weightlifting_W_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.weightlifting_hover:hover {
+    background-image: url(../images/weightlifting_W.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.hurling_hover {
+    background-image: url(../images/xare_x_X_bwpng);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.hurling_hover:hover {
+    background-image: url(../images/xare_x_X.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.equestrian_hover {
+    background-image: url(../images/equestrian_e_E_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.equestrian_hover:hover {
+    background-image: url(../images/equestrian_e_E.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.ultimatefrisbee_hover {
+    background-image: url(../images/ultimatefrisbee_U_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.ultimatefrisbee_hover:hover {
+    background-image: url(../images/ultimatefrisbee_U.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.volleyball_hover {
+    background-image: url(../images/volleyball_V_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.volleyball_hover:hover {
+    background-image: url(../images/volleyball_V.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.orienteering_hover {
+    background-image: url(../images/orienteering_O_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.orienteering_hover:hover {
+    background-image: url(../images/orienteering_O.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.pingpong_hover {
+    background-image: url(../images/pingpong_P_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.pingpong_hover:hover {
+    background-image: url(../images/pingpong_P_P.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.jaialai_hover {
+    background-image: url(../images/jai_alai_J_bw.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
+
+.jaialai_hover:hover {
+    background-image: url(../images/jai_alai_J.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:225px;
+}
 /*
 ==============================================
 footer
@@ -432,8 +847,28 @@ footer {
     background-color:#E9E9E9;
     height:inherit;
     padding-top:40px;
-    padding-bottom:60px;
     margin-top:40px;
+}
+
+a.portfolio {
+       color:grey;
+}
+
+a.portfolio:hover {
+       color:#AB8829;
+    text-decoration: none;
+}
+
+
+
+
+.copywrite {
+    background-color:#303030;
+    height: 60px;
+    text-align: center;
+    margin-top:40px;
+    color:#565656;
+    padding-top:15px;
 }
 
 
@@ -441,9 +876,15 @@ footer {
     margin-top:25px;
 }
 
+h4.sign_up_text {
+    margin-bottom:17px;   
+}
+    
 .sign_up_text {
+    font-size:14px;
     line-height: 1.3;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+   
 }
 
 input.form-control {
@@ -510,12 +951,12 @@ input.form-control {
 
 
 .see_alphabet {
-    background-color: #7195CB;  
+    background-color: #AB8829;  
 }
 
 
 .sm_icon_fb {
-    background-image: url(../images/sm_fb_blue-14.png);
+    background-image: url(../images/sm_fb_gold-23.png);
      display: block;
     height: 50px;
     width: 50px;
@@ -533,7 +974,7 @@ input.form-control {
 }
 
 .sm_icon_tw {
-   background-image: url(../images/sm_tw_blue-15.png);
+   background-image: url(../images/sm_tw_gold-24.png);
     display: block;
     height: 49px;
     width: 47px;
@@ -551,7 +992,7 @@ input.form-control {
 }
 
 .sm_icon_insta {
-    background-image: url(../images/sm_insta_blue-16.png);
+    background-image: url(../images/sm_insta_gold-25.png);
     display: block;
     height: 50px;
     width: 50px;
@@ -576,7 +1017,148 @@ input.form-control {
 
 
 .social_media {
-    margin-top:105px;  
+    
     height:40px;
 }
 
+.connect {
+    margin-bottom:40px;   
+}
+
+/*
+==============================================
+exhibition photos
+==============================================
+*/
+
+.exhibition_photos {
+    margin-top:30px;   
+}
+
+.exhibit_photo_margin {
+    margin-top: 30px;   
+}
+
+.thesis_talk_photos {
+    
+}   
+
+/*
+==============================================
+essay
+==============================================
+*/
+
+figcaption {
+    color:#AB8829;
+    padding-top:5px;
+    font-size:10px;
+}
+
+#sticky.stick {
+    margin-top: 0 !important;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    border-radius: 0 0 0.5em 0.5em;
+}
+
+.is-sticky {
+     
+}
+
+.essay_title {
+    font-size:30px;   
+}
+
+.nationals {
+    margin-top:40px;   
+}
+
+.nationals {
+    float:left;
+    height:300px;
+    margin-right:20px;
+    margin-top:20px;
+}
+
+.nationals_race {
+    float:left;
+    height:300px;
+    margin-right:20px;
+    margin-top:5px;
+}
+
+.essay_caption_header {
+    margin-top:250px;
+    color:#ffffff;
+    text-align: left;
+   
+    
+}
+
+
+.essay_sublinks {
+    margin-top:40px;
+    text-align: right;   
+}
+
+.essay_sublinks > a > h6 {
+       color:#AB8829;
+    text-decoration: none;
+}
+
+
+.essay_sublinks > a:hover > h6{
+       color:#AB8829;
+        text-decoration: none;
+}
+
+h3.essay_subheads {
+    color: #AB8829; 
+}
+
+.sexy_rule_top_essay {
+    margin: 25px 0;
+    height: 1px;
+    width:90%;
+    background: #AB8829;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #AB8829)); 
+    
+    margin-bottom: 5px;
+}
+
+.sexy_rule_bottom_essay {
+    margin: 25px 0;
+    height: 1px;
+    width:90%;
+    background: #AB8829;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #AB8829)); 
+   
+    margin-top: 25px;
+}
+
+.first_pull_quote {
+    color:#AB8829;
+    margin-top:27px;
+
+}
+
+.first_pull_quote > h3 {
+    line-height: 30px;
+}
+
+
+.pull_quote {
+     color:#AB8829;
+}
+
+.pull_quote > h3 {
+     line-height: 30px;
+}
+
+
+.essay_p1 {
+    margin-top:-17px;
+    font-size:24px;
+}
