@@ -360,6 +360,10 @@ td, th {
 .paddle {
     margin-left:20px;   
 }
+
+.bowling_ball {
+    margin-left:-10px;   
+}
 /*
 ==============================================
 alphabet grid
