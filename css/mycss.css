@@ -10,6 +10,9 @@ body {
    
 }
 
+h1, h2, h3, h4, h5, h6, nav {
+  
+  }
 
 .shop {
    
@@ -50,7 +53,7 @@ box-shadow:         0px 0px 0px 7px rgba(50, 50, 50, 1);
 .arrow_left_gdmfa {
     margin-top:25px;
     margin-left:20px;
-	background-image: url(../images/arrow_left_gold-26.png);
+	background-image: url(../images/arrow_left_goldcenter_whiteborder-28.png);
     display: block;
     background-size: contain;
     height: 25px;
@@ -61,7 +64,7 @@ box-shadow:         0px 0px 0px 7px rgba(50, 50, 50, 1);
 .arrow_left_gdmfa:hover {
     margin-top:25px;
     margin-left:20px;
-	background-image: url(../images/arrow_left-20.png);
+	background-image: url(../images/arrow_left_gold-26.png);
     display: block;
     background-size: contain;
     height: 25px;
@@ -230,6 +233,10 @@ navigation
 }
 
 
+.essay_header {
+    background-image:url(../images/exhibition__header_02.jpg);  
+    background-size: cover;
+}
 
 
 .home_header {
@@ -238,7 +245,7 @@ navigation
 }
 
 .exhibit_header {
-    background-image:url(../images/exhibit_header_grey.jpg);  
+    background-image:url(../images/exhibition_header.jpg);  
     background-size: cover;
 }
 
@@ -274,7 +281,15 @@ navigation
 }
 
 h5.exhibit_date, .exhibit_institution, .exhibit_location {
-   color: #303030; 
+   color: #AB8829; 
+}
+
+h5.exhibit_date {
+    font-size:25px;   
+}
+
+h5.exhibit_location, h5.exhibit_institution {
+    font-size:14px;   
 }
 
 /*
@@ -398,11 +413,20 @@ td, th {
 }
 
 .paddle {
-    margin-left:20px;   
+    margin-left:15px;   
 }
 
-.bowling_ball {
-    margin-left:-10px;   
+
+.quaffle {
+    margin-left:-3px;   
+}
+
+.bowling_pin, .baton {
+    margin-left:15px;  
+}
+
+.weights, .football {
+    margin-left:5px;
 }
 
 .bathing_suit {
@@ -414,6 +438,22 @@ td, th {
 }
 
 .yoga_mat {
+    margin-left:2px;   
+}
+
+.xare_racquet {
+    margin-left:12px;   
+}
+
+.pingpong_paddle {
+    margin-left:1px;
+}
+
+.volleyball_icon {
+    margin-left:-3px;   
+}
+
+.golf_tee {
     margin-left:2px;   
 }
 /*
@@ -472,98 +512,62 @@ alphabet grid
     letter-spacing: .5px;
 }
 
-.airhockey_hover {
-    background-image: url(../images/airhockey_A_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.airhockey_hover:hover {
+
+.airhockey_hover {
     background-image: url(../images/airhockey_A.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
+
+
 .bowling_hover {
-    background-image: url(../images/bowling_bw.png);
+    background-image: url(../images/bowling_color_B.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.bowling_hover:hover {
-    background-image: url(../images/bowling_b_B.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
+
 
 .croquet_hover {
-    background-image: url(../images/croquet_C_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
-
-.croquet_hover:hover {
     background-image: url(../images/croquet_C.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.track_hover {
-    background-image: url(../images/track_T_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.track_hover:hover {
+
+.track_hover {
     background-image: url(../images/track_T.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.netball_hover {
-    background-image: url(../images/netball_n_N_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.netball_hover:hover {
+
+.netball_hover {
     background-image: url(../images/netball_n_N.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.zorbing_hover {
-    background-image: url(../images/zorbing_Z_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.zorbing_hover:hover {
+
+.zorbing_hover {
     background-image: url(../images/zorbing_Z.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.karate_hover {
-    background-image: url(../images/karate_K_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.karate_hover:hover {
+.karate_hover {
     background-image: url(../images/karate_K.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -571,14 +575,9 @@ alphabet grid
 }
 
 
-.diving_hover {
-    background-image: url(../images/diving_d_D_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.diving_hover:hover {
+
+.diving_hover{
     background-image: url(../images/diving_d_D.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -586,252 +585,160 @@ alphabet grid
 }
 
 
-.lumberjack_hover {
-    background-image: url(../images/lumberjacking_L_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.lumberjack_hover:hover {
+.lumberjack_hover {
     background-image: url(../images/lumberjacking_L.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.icehockey_hover {
-    background-image: url(../images/icehockey_I_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.icehockey_hover:hover {
+
+.icehockey_hover {
     background-image: url(../images/icehockey_I.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.quidditch_hover {
-    background-image: url(../images/quidditch_Q_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.quidditch_hover:hover {
+
+.quidditch_hover {
     background-image: url(../images/quidditch_Q.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.soccer_hover {
-    background-image: url(../images/soccer_S_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.soccer_hover:hover {
+.soccer_hover {
     background-image: url(../images/soccer_S.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.motocross_hover {
-    background-image: url(../images/motocross_M_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.motocross_hover:hover {
+
+.motocross_hover {
     background-image: url(../images/motocross_M.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.yoga_hover {
-    background-image: url(../images/yoga_Y_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.yoga_hover:hover {
+
+.yoga_hover {
     background-image: url(../images/yoga_Y.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.football_hover {
-    background-image: url(../images/football_f_F_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.football_hover:hover {
+
+.football_hover {
     background-image: url(../images/football_f_F.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.golf_hover {
-    background-image: url(../images/golf_G_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.golf_hover:hover {
+
+.golf_hover {
     background-image: url(../images/golf_G.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.rowing_hover {
-    background-image: url(../images/rowing_R_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.rowing_hover:hover {
+
+.rowing_hover {
     background-image: url(../images/rowing_R.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.xare_hover {
-    background-image: url(../images/xare_x_X_bwpng);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.xare_hover:hover {
+
+.xare_hover {
     background-image: url(../images/xare_x_X.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.weightlifting_hover {
-    background-image: url(../images/weightlifting_W_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.weightlifting_hover:hover {
+
+.weightlifting_hover {
     background-image: url(../images/weightlifting_W.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.hurling_hover {
-    background-image: url(../images/xare_x_X_bwpng);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.hurling_hover:hover {
+
+.hurling_hover {
     background-image: url(../images/xare_x_X.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.equestrian_hover {
-    background-image: url(../images/equestrian_e_E_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.equestrian_hover:hover {
+
+.equestrian_hover {
     background-image: url(../images/equestrian_e_E.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.ultimatefrisbee_hover {
-    background-image: url(../images/ultimatefrisbee_U_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.ultimatefrisbee_hover:hover {
+
+.ultimatefrisbee_hover {
     background-image: url(../images/ultimatefrisbee_U.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.volleyball_hover {
-    background-image: url(../images/volleyball_V_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.volleyball_hover:hover {
+
+.volleyball_hover {
     background-image: url(../images/volleyball_V.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.orienteering_hover {
-    background-image: url(../images/orienteering_O_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.orienteering_hover:hover {
+
+.orienteering_hover {
     background-image: url(../images/orienteering_O.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.pingpong_hover {
-    background-image: url(../images/pingpong_P_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.pingpong_hover:hover {
+
+.pingpong_hover {
     background-image: url(../images/pingpong_P_P.png);
     background-size: contain;
     background-repeat: no-repeat;
     height:225px;
 }
 
-.jaialai_hover {
-    background-image: url(../images/jai_alai_J_bw.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height:225px;
-}
 
-.jaialai_hover:hover {
+
+.jaialai_hover {
     background-image: url(../images/jai_alai_J.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -877,15 +784,23 @@ a.portfolio:hover {
 }
 
 h4.sign_up_text {
-    margin-bottom:17px;   
+    margin-bottom:25px;   
 }
     
 .sign_up_text {
     font-size:14px;
     line-height: 1.3;
-    letter-spacing: 0.5px;
-   
+    letter-spacing: 0.3px;
+    padding-bottom:15px;
 }
+
+.connect, .advisors {
+    font-size:14px;
+    line-height: 1.3;
+    letter-spacing: 0.3px;
+}
+
+
 
 input.form-control {
     background-color:#ffffff;
@@ -1018,10 +933,14 @@ input.form-control {
 
 .social_media {
     
-    height:40px;
+    height:80px;
 }
 
-.connect {
+h5 > .connect {
+      
+}
+
+.connect_wrapper {
     margin-bottom:40px;   
 }
 
@@ -1068,7 +987,8 @@ figcaption {
 }
 
 .essay_title {
-    font-size:30px;   
+    font-size:30px;  
+   
 }
 
 .nationals {
@@ -1090,32 +1010,51 @@ figcaption {
 }
 
 .essay_caption_header {
-    margin-top:250px;
+    margin-top:150px;
     color:#ffffff;
     text-align: left;
+    padding-bottom:50px;
    
     
 }
 
+div#sticky {
+
+}
 
 .essay_sublinks {
     margin-top:40px;
-    text-align: right;   
+    text-align: left;   
+}
+
+.essay_sublinks > a {
+    margin-bottom:10px;   
 }
 
 .essay_sublinks > a > h6 {
-       color:#AB8829;
-    text-decoration: none;
+       color:#303030;
+    padding-bottom:5px;
+    text-decoration: none;  
 }
 
+.sticky {
+      text-align: left;   
+}
 
-.essay_sublinks > a:hover > h6{
+.essay_wrapper {
+    padding-top:20px;
+}
+
+.essay_sublinks > a:hover > h6 {
        color:#AB8829;
-        text-decoration: none;
+    padding-bottom:5px;
+    text-decoration: none;
+        
 }
 
 h3.essay_subheads {
     color: #AB8829; 
+    font-size:16px;
 }
 
 .sexy_rule_top_essay {
@@ -1161,4 +1100,15 @@ h3.essay_subheads {
 .essay_p1 {
     margin-top:-17px;
     font-size:24px;
+}
+
+
+/*
+==============================================
+ABOUT
+==============================================
+*/
+
+.about_sheena {
+    margin-top:100px;   
 }
