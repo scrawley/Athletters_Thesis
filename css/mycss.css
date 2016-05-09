@@ -282,15 +282,19 @@ navigation
 
 h5.exhibit_date, .exhibit_institution, .exhibit_location {
    color: #AB8829; 
+    line-height: 1;
 }
 
 h5.exhibit_date {
-    font-size:25px;   
+    font-size:25px; 
+    
 }
 
 h5.exhibit_location, h5.exhibit_institution {
     font-size:14px;   
 }
+
+
 
 /*
 ==============================================
@@ -416,6 +420,17 @@ td, th {
     margin-left:15px;   
 }
 
+.equestrian_hat {
+    margin-left:-8px;   
+}
+
+.skate {
+    margin-left:-8px;   
+}
+
+.motocross_helmet {
+    margin-left:-10px;   
+}
 
 .quaffle {
     margin-left:-3px;   
@@ -423,6 +438,10 @@ td, th {
 
 .bowling_pin, .baton {
     margin-left:15px;  
+}
+
+.computer {
+    margin-left:10px;   
 }
 
 .weights, .football {
@@ -446,7 +465,7 @@ td, th {
 }
 
 .pingpong_paddle {
-    margin-left:1px;
+    margin-left:5px;
 }
 
 .volleyball_icon {
@@ -972,6 +991,7 @@ figcaption {
     color:#AB8829;
     padding-top:5px;
     font-size:10px;
+    letter-spacing: 0.5px;
 }
 
 #sticky.stick {
@@ -982,8 +1002,11 @@ figcaption {
     border-radius: 0 0 0.5em 0.5em;
 }
 
-.is-sticky {
-     
+
+.right_nav_sticky {
+    position: fixed;
+    left:75%;
+    top:38%;
 }
 
 .essay_title {
